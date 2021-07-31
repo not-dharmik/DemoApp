@@ -1,0 +1,51 @@
+<%- include ("partials/header-form") %>
+
+
+<div class="box">
+    <form action="/viewemp" method="POST">
+        <table class="table1" frame="rhs">
+            <tr >
+                <td colspan="2" class="top right left strong1">
+                    FORM
+                </td>
+            </tr>
+            <tr >
+                <td colspan="2" class="right left">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="left">
+                    NAME
+                </td>
+                <td class="right">
+                    <input type="text" name="EmpName" placeholder="Your Full Name" id="N">
+                </td>
+            </tr>
+            <tr>
+                <td class="left">
+                    UserName
+                </td>
+                <td class="right">
+                    <input type="text" name="UserName" placeholder="Your username" id="U">
+                </td>
+            </tr>
+            <tr>
+                <td class="left">
+                    Email
+                </td>
+                <td class="right">
+                    <input type="text" name="Email" placeholder="Enter your email" id="E">
+                </td>
+            </tr>    
+            <tr>
+                <td colspan="2" class="bottom right left" >
+                    <button onclick="check();">Submit!</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>    
+</div>
+
+<%- include ("partials/footer") %>

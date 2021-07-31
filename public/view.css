@@ -1,0 +1,11 @@
+body{
+    background-color: #020202;
+    color: #73bbb5;
+}
+.emp-div{
+    border: 2px solid #73bbb5;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}

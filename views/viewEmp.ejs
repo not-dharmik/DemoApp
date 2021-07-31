@@ -1,0 +1,23 @@
+<%- include ("partials/header-view") %>
+<h1>Employee's List</h1>
+<% for(var i=0; i<EmpName.length ;i++ ){ %>
+<div class="emp-div">
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td> <%= EmpName[i] %>  </td>
+        </tr>
+        <tr>
+            <td>Username:</td>
+            <td> <%= UserName[i] %>  </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td> <%= Email[i] %>  </td>
+        </tr>
+    </table>
+</div>
+<br>
+<% } %>
+
+<%- include ("partials/footer") %>
